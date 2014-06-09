@@ -1,0 +1,37 @@
+/*
+	Header
+*/
+
+.navbar{
+	height: $navbar-height;
+	width:100%;
+	background-color: rgba($navbar-default,0.5);
+	h1{
+		font-size: 2em;
+		line-height: 70px;
+		margin-left: gutter();
+		margin-right: gutter();
+		float: left;
+	}
+}
+
+.navbar ul{
+	float: left;
+	height: $navbar-height;
+	li{
+		min-width:85px;
+		text-align: center;
+		@include default-animation();
+		height: inherit;
+		line-height: $navbar-height;
+		display: inline-block;
+		a{
+			color:white;
+			padding: none;
+			background-color: transparent;
+		}
+		&:hover{
+			background-color: rgba($navbar-li,0.4);
+		}
+	}
+}

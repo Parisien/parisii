@@ -1,0 +1,7 @@
+/*
+	Animation
+*/
+
+@mixin default-animation(){
+	@include transition(background $btn-animation/2 linear, border $btn-animation/2 linear);
+}

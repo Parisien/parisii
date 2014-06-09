@@ -1,0 +1,17 @@
+/*
+	Helper for alignement
+*/
+
+.center{
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	float: none;
+}
+
+@mixin center() {
+	position: relative;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
