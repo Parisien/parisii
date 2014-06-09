@@ -1,0 +1,40 @@
+// bower:scss
+// endbower
+
+@import 'compass';
+@import 'compass/reset';
+@import 'conf/_conf.scss';
+
+/** Import conf **/
+
+@import 'conf/_color.scss';
+@import 'conf/_font.scss';
+
+/** Import grid **/
+
+@import 'grid/_grid.scss';
+
+body{
+  background-color: $main_color;
+  color:$color_text;
+  font-family: $font;
+}
+
+.container{
+  	width: span(12);
+}
+
+.nav{
+	li{
+		display: inline-block;
+		margin-top: 15px;
+		margin-left: 10px;
+		margin-bottom: 15px;
+	}
+}
+
+
+.footer{
+	margin-top: 35px;
+	clear: left;
+}
