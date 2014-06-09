@@ -9,8 +9,8 @@ $susy:(
 	.col-#{$i}{
 		width: span($i);
 		float: left;
-		margin-left: gutter();
- 		margin-right: gutter();
+		padding-left: gutter();
+ 		padding-right: gutter();
 	}
 }
 

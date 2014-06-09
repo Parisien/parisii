@@ -21,4 +21,26 @@
 	&.btn-title{
 		font-size: 1.2em;
 	}
+	&.btn-max{
+		width:100%;
+	}
+}
+
+.btn{
+	&.danger{
+		background-color: rgba($danger,0.5);
+		&:hover{
+			background-color: rgba(darken($danger,10%),1);
+		}
+	}&.success{
+		background-color: rgba($success,0.5);
+		&:hover{
+			background-color: rgba(darken($success,10%),1);
+		}
+	}&.warning{
+		background-color: rgba($warning,0.5);
+		&:hover{
+			background-color: rgba(darken($warning,10%),1);
+		}
+	}
 }

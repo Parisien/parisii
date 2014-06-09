@@ -1,0 +1,34 @@
+/*
+	Form Style
+*/
+
+input,textarea{
+	background-color: transparent;
+	border:1px solid white;
+	min-height:25px;
+	min-width:100%;
+	color:white;
+	font-family: inherit;
+	font-size: 1em;
+	display: block;
+	margin-top: 5px; margin-bottom: 5px;
+	padding:10px 5px;
+	@include default-animation();
+	&:focus{
+		background-color: rgba(black,1);
+	}	
+}
+
+.input-grouped input{
+	min-width: span(6)-0.15%;
+	display: inline-block;
+}
+
+input[type=radio]{
+	display: none;
+	&:before{
+		content:'';
+		width:10px; height:10px;
+		@include border-radius(100%);
+	}
+}

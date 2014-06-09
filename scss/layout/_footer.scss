@@ -2,6 +2,9 @@
 	Footer
 */
 
+@import "compass/layout/sticky-footer";
+// @include sticky-footer(72px, ".main", "#root_footer", ".footer");
+
 .footer{
 	font-size: 0.8em;
 }

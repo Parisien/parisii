@@ -23,6 +23,7 @@
 		text-align: center;
 		@include default-animation();
 		height: inherit;
+		padding:0px 15px;
 		line-height: $navbar-height;
 		display: inline-block;
 		a{

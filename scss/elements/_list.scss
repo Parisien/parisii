@@ -1,0 +1,12 @@
+/*
+	List Style
+*/
+
+:not(.navbar) li{
+	list-style-type: circle;
+	margin-top: 5px;
+}
+
+:not(.navbar) li > ul >li {
+	margin-left: 25px;
+}
