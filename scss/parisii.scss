@@ -37,6 +37,11 @@
 	outline:none;
 }
 
+/*
+	Todo:
+		- Faire le ménage dans ce fichier
+*/
+
 html{
 	height:100%;
 }
@@ -64,11 +69,3 @@ body{
   	width: span(12);
 }
 
-.nav{
-	li{
-		display: inline-block;
-		margin-top: 15px;
-		margin-left: 10px;
-		margin-bottom: 15px;
-	}
-}

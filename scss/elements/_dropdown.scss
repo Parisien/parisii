@@ -1,0 +1,11 @@
+/*
+	Dropdown
+*/
+
+.dropdown{
+	&:before{
+		position:absolute;
+		top:-0px; right:5px;
+		@include iconic(1em,"\f078");
+	}
+}

@@ -2,11 +2,11 @@
 	List Style
 */
 
-:not(.navbar) li{
+ul:not(.nav) li{
 	list-style-type: circle;
 	margin-top: 5px;
 }
 
-:not(.navbar) li > ul >li {
+ul:not(.nav) li > ul >li {
 	margin-left: 25px;
 }

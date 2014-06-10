@@ -1,0 +1,9 @@
+/*
+	Font
+*/
+
+@mixin iconic($size,$char){
+	font-family: "FontAwesome";
+	font-size: $size;
+	content:$char;
+}

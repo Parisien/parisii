@@ -18,6 +18,8 @@
 .navbar ul{
 	float: left;
 	height: $navbar-height;
+	position: relative;
+	@include default-animation();
 	li{
 		min-width:85px;
 		text-align: center;
@@ -26,6 +28,7 @@
 		padding:0px 15px;
 		line-height: $navbar-height;
 		display: inline-block;
+		position: relative;
 		a{
 			color:white;
 			padding: none;
@@ -33,6 +36,25 @@
 		}
 		&:hover{
 			background-color: rgba($navbar-li,0.4);
+			& > ul{
+				display: inline-block;
+
+			}
+		}
+	}
+	li > ul{
+		z-index: 100;
+		position: absolute;
+		top:$navbar-height; left:0;
+		height:auto;
+		display:none;
+		width: 100%;
+		background-color: rgba($main_color,0.7);
+		& > li {
+			cursor:pointer;
+			width:inherit;
+			margin:0px;
+			display: block;
 		}
 	}
 }
